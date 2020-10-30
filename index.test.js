@@ -27,3 +27,7 @@ test('fizzBuzz returns "Buzz" for multiples of 5', () => {
 test('fizzBuzz returns "FizzBuzz" for multiples of 5 and 3', () => {
   expect(fizzBuzz(15)).toBe('FizzBuzz');
 });
+
+test('fizzBuzz returns "Fizz" for numbers containing 3', () => {
+  expect(fizzBuzz(13)).toBe('Fizz');
+});

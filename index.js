@@ -8,7 +8,7 @@ const BUZZ_STRING = "Buzz";
 
 function fizzBuzz(num){
     let result = '';
-    if (num % FIZZ_VALUE === 0) {
+    if (num % FIZZ_VALUE === 0 || num.toString().includes(FIZZ_VALUE)) {
         result += FIZZ_STRING;
     }
     if (num % BUZZ_VALUE === 0) {
