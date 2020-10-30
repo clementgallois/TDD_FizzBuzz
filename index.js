@@ -1,16 +1,14 @@
  // A number is fizz if it is divisible by 3 or if it has a 3 in it
  // A number is buzz if it is divisible by 5 or if it has a 5 in it
 function fizzBuzz(num){
-    if (num % 3  === 0 && num % 5 === 0){
-        return "FizzBuzz"
-    }
+    let result = '';
     if (num % 3 === 0) {
-        return 'Fizz';
+        result += 'Fizz';
     }
     if (num % 5 === 0) {
-        return 'Buzz';
+        result += 'Buzz';
     }
-    return num;
+    return result || num;
 }
 
 module.exports = fizzBuzz
