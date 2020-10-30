@@ -11,7 +11,7 @@ function fizzBuzz(num){
     if (num % FIZZ_VALUE === 0 || num.toString().includes(FIZZ_VALUE)) {
         result += FIZZ_STRING;
     }
-    if (num % BUZZ_VALUE === 0) {
+    if (num % BUZZ_VALUE === 0 || num.toString().includes(BUZZ_VALUE)) {
         result += BUZZ_STRING;
     }
     return result || num;
