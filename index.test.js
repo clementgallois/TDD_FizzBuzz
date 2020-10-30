@@ -1,5 +1,5 @@
 const fizzBuzz = require('./index.js');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(1 + 2).toBe(3);
+test('fizzBuzz(1) returns 1', () => {
+  expect(fizzBuzz(1)).toBe(1);
 });
