@@ -11,3 +11,7 @@ test('fizzBuzz(2) returns 2', () => {
 test('fizzBuzz(3) returns "Fizz"', () => {
   expect(fizzBuzz(3)).toBe('Fizz');
 });
+
+test('fizzBuzz returns "Fizz" for multiples of 3', () => {
+  expect(fizzBuzz(6)).toBe('Fizz');
+});
